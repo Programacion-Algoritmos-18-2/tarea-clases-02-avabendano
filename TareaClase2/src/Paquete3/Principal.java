@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tareaclase2;
+package Paquete3;
 
 /**
  *
@@ -14,8 +14,13 @@ public class Principal {
     public static void main(String[] args) {
         Precio p;
         p = new Precio();
-        p.euros = 10.1;
-        System.out.println(p.euros);
+
+        Precio n = new Precio(25.9);
+        // p.euros = 10.1;
+        //System.out.println(p.euros);
+
+        System.out.println(p.obtener());
+        System.out.println(n.obtener());
     }
 
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tareaclase2;
+package Paquete3;
 
 /**
  *
@@ -11,15 +11,24 @@ package tareaclase2;
  */
 public class Precio {
 
-    double euros;
+    private double euros;
 
     public double obtener() {
-        return 0;
-        //todo
+        return euros;
+        //too
     }
 
     public void agregar(double x) {
+        euros = x;
 
+    }
+
+    public Precio() {
+        agregar(30.2);
+    }
+
+    public Precio(double y) {
+        agregar(y);
     }
 
 }

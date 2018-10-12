@@ -3,19 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tareaclase2;
+package Paquete2;
 
 /**
  *
  * @author Victoria
  */
-public class Principal {
+public class Precio {
 
-    public static void main(String[] args) {
-        Precio p;
-        p = new Precio();
-        p.euros = 10.1;
-        System.out.println(p.euros);
+    private double euros;
+
+    public double obtener() {
+        return euros;
+        //too
+    }
+
+    public void agregar(double x) {
+        euros = x;
+
     }
 
 }
